@@ -1,5 +1,5 @@
 {
-    "name": "drTool",
+    "name": "dr-tool",
     "description": "a php tool",
     "type": "library",
     "minimum-stability": "stable",
