@@ -1,6 +1,6 @@
 <?php
 
-namespace dr\tool;
+namespace drTool;
 
 class Arr
 {

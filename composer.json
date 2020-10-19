@@ -8,15 +8,7 @@
     },
 	"autoload":{
 		"psr-4": {
-			"dr\\": "src"
+			"drTool\\": "src"
 		}
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "dr\\tool\\IO::prePackageInstall"
-        ],
-        "post-package-install": [
-            "dr\\tool\\IO::postPackageInstall"
-        ]
     }
 }
