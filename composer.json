@@ -1,5 +1,5 @@
 {
-    "name": "dr-tool",
+    "name": "hotarunohikari/dr-tool",
     "description": "a php tool",
     "type": "library",
     "minimum-stability": "stable",
