@@ -1,0 +1,22 @@
+{
+    "name": "dr/tool",
+    "description": "a php tool",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+	"autoload":{
+		"psr-4": {
+			"dr\\": "src"
+		}
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "dr\\tool\\IO::prePackageInstall"
+        ],
+        "post-package-install": [
+            "dr\\tool\\IO::postPackageInstall"
+        ]
+    }
+}
