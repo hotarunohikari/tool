@@ -1,6 +1,6 @@
 <?php
 
-namespace drTool;
+namespace dr\tool;
 
 class Str
 {

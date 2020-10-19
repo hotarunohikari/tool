@@ -1,5 +1,5 @@
 {
-    "name": "dr/tool",
+    "name": "drTool",
     "description": "a php tool",
     "type": "library",
     "minimum-stability": "stable",
@@ -8,7 +8,7 @@
     },
 	"autoload":{
 		"psr-4": {
-			"drTool\\": "src"
+			"dr\\tool\\": "src"
 		}
     }
 }
