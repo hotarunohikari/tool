@@ -192,7 +192,7 @@
      */
     static function delete($path, $except = [], $self = false)
     
-## File
+## Time
 
     /**
      * 时区操作
